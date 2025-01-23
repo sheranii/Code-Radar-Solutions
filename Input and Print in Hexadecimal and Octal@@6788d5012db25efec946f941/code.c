@@ -1,5 +1,5 @@
 #include <stdio.h>
-int maths()
+int maths();
 int main(){
     int a;
     scanf("%d",&a);
