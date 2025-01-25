@@ -8,6 +8,6 @@ int main(){
         printf("True");
     }
     else{
-        pritnf("False");
+        printf("False");
     }
 }
