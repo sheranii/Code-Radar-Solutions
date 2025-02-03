@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define  BITS sizeof( unsigned int)*4
+#define  BITS sizeof( unsigned int)*16
 
 int main(){
      unsigned int a;
