@@ -1,6 +1,7 @@
 #include <stdio.h>
+#define bits sizeof(int)*8
+
 int main(){
-    bits=8;
     int a;
     int msb;
     scanf("%d",&a);
