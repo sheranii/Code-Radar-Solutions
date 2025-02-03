@@ -6,7 +6,7 @@ int main(){
      unsigned int msb;
     scanf("%u",&a);
     msb=1<<(BITS-1);
-    if (num & msb){
+    if ((num & msb)==1){
         printf("Set");
     }
     else{
