@@ -2,9 +2,9 @@
 #define  BITS sizeof(int)*8
 
 int main(){
-    int a;
-    int msb;
-    scanf("%d",&a);
+     unsigned int a;
+     unsigned int msb;
+    scanf("%u",&a);
     msb=1<<(BITS-1);
     if (num & msb){
         printf("Set");
