@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main(){
     int num;
-    int n=0;
-    int n=1;
+    int n;
     scanf("%d",&num);
     scanf("%d",&n);
     int bitstatus;
