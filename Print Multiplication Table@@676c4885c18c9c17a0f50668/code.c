@@ -3,7 +3,7 @@ int main(){
     int x,N;
     scanf("%d",&N);
     for (x=1;x<=10;x++){
-        printf("%dX%d=%d\n",N,x,N*x);
+        printf("%d X %d = %d\n",N,x,N*x);
     }
     return 0;
 }
