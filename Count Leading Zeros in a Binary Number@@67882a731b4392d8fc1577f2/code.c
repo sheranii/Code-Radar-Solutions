@@ -6,15 +6,12 @@ int countLeadingZeros(unsigned int n) {
         n <<= 1;  
         count++;  
     }
-
     return count;
 }
-
 int main() {
-    unsigned int num = 18;  // Example number
+    unsigned int num ;
+    scanf("%d", num);
     int leadingZeros = countLeadingZeros(num);
-
     printf("%d ",leadingZeros);
-
-    return 0;
+return 0;
 }
