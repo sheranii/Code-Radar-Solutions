@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main(){
-    int x=1,N;
+    int x,N;
     scanf("%d",&N);
-    while (x<=10){
+    for (x=1;x<=10;x++){
         printf("%d x %d = %d\n",N,x,N*x);
-        x++;
     }
     return 0;
 }
