@@ -1,5 +1,7 @@
 #include<stdio.h>
-int main()
+int main(){
+
+
 int a,b;
 scanf("%d %d",&a,&b);
 if (a&(1<<b)){
@@ -7,4 +9,5 @@ if (a&(1<<b)){
 }
 else{
     printf("0");
+}
 }
