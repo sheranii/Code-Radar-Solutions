@@ -17,10 +17,13 @@ int main(){
         printf("%d",a*b);
         break;
         case '/':
-        if(b!=0){
-            printf("%d",a/b);
-        } else{
+        if(b==0){
             printf("error");
+        } else if(a%b!=0){
+            printf("error");
+        }
+        else{
+            printf("%d",a/b);
         }
         break;
         default:
