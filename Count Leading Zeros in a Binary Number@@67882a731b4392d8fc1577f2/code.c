@@ -1,19 +1,8 @@
-#include <stdio.h>
-int countTrailingZeros(int n) {
-    if (n == 0) {
-        return 0;
-    }
-    int count = 0;
-    while ((n & 1)== 0) {  
-        count++;  
-        n>>=1;
-    }
-    return count;
-}
-int main() {
-    int num ;
-    scanf("%d", &num);
-    int leadingZeros = countTrailingZeros(num);
-    printf("%d \n",leadingZeros);
-return 0;
+#include<stdio.h>
+int main(){
+    unsigned int num;
+    scanf("%u",&num);
+    int leading_zeroes = _builtin_clz(num);
+    printf("%d \n", leading_zeroes);
+    return 0;
 }
