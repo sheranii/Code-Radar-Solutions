@@ -1,9 +1,9 @@
 #include <stdio.h>
-int countLeadingZeros(int n) {
-    int count = 0;
+int countTrailingZeros(int n) {
     if (n == 0) {
         return 0;
     }
+    int count = 0;
     while ((n & 1)== 0) {  
         count++;  
         n>>=1;
@@ -13,7 +13,7 @@ int countLeadingZeros(int n) {
 int main() {
     int num ;
     scanf("%d", &num);
-    int leadingZeros = countLeadingZeros(num);
-    printf("%d ",leadingZeros);
+    int leadingZeros = countTrailingZeros(num);
+    printf("%d \n",leadingZeros);
 return 0;
 }
