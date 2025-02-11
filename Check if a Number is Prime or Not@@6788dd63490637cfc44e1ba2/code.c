@@ -1,11 +1,18 @@
 #include <stdio.h>
-int main(){
-    int a;
-    scanf("%d",&a);
-    if( a>1 && (a%1==0 && a%a==0)){
-        printf("Prime");
-    }
-    else{
+#include <math.h>
+int main() {
+    int a, i;
+    scanf("%d", &a);
+    if (a <= 1) {
         printf("Not Prime");
+        return 0;
     }
+    for (i = 2; i <= sqrt(a); i++) {
+        if (a % i == 0) {
+            printf("Not Prime");
+            return 0;
+        }
+    }
+    printf("Prime");
+    return 0;
 }
