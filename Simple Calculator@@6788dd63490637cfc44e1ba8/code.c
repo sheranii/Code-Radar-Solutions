@@ -20,9 +20,6 @@ int main(){
         if(b==0){
             printf("error");
         }
-        else{
-            printf("%d",a/b);
-        }
         break;
         default:
         printf("error");
