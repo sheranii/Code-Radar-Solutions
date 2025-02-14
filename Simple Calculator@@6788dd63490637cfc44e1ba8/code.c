@@ -1,28 +1,34 @@
 #include <stdio.h>
-int main(){
-    int a;
-    int b;
+
+int main() {
+    double a;
+    double b;
     char c;
-    scanf("%d",&a);
-    scanf("%d",&b);
-    scanf("%c",&c);
-    switch(c){
+
+    scanf("%lf", &a);  // Use %lf for double
+    scanf("%lf", &b);  // Use %lf for double
+    scanf(" %c", &c);  // Add a space before %c to handle new line characters from previous input
+
+    switch(c) {
         case '+':
-        printf("%d",a+b);
-        break;
+            printf("%lf\n", a + b);  // Use %lf to print double
+            break;
         case '-':
-        printf("%d",a-b);
-        break;
+            printf("%lf\n", a - b);  // Use %lf to print double
+            break;
         case '*':
-        printf("%d",a*b);
-        break;
+            printf("%lf\n", a * b);  // Use %lf to print double
+            break;
         case '/':
-        if(b==0){
-            printf("error");
-        }
-        break;
+            if(b == 0) {
+                printf("error\n");
+            } else {
+                printf("%lf\n", a / b);  // Use %lf to print double
+            }
+            break;
         default:
-        printf("error");
-        
-}
+            printf("error\n");
+    }
+    
+    return 0;
 }
