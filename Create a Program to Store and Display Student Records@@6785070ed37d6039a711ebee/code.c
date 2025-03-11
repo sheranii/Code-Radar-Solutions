@@ -10,6 +10,7 @@ int main(){
         scanf("%c",&name);
         printf("Name: %c",name);
         scanf("%d",&marks);
-        printf("Marks: %f",marks);
+        printf("Marks: %.2f",marks);
     }
+    return 0;
 }
