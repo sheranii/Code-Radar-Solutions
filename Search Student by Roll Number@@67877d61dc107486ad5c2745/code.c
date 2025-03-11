@@ -16,8 +16,8 @@ int main(){
     for(int i=0; i<N; i++){
         if(rollno==searchedrollno){
             printf("Roll Number: %d,",rollno);
-            printf("Name: %s,",name);
-            printf("Marks:%.2f",marks);
+            printf(" Name: %s,",name);
+            printf(" Marks:%.2f",marks);
             find=1;
             break;
         }
