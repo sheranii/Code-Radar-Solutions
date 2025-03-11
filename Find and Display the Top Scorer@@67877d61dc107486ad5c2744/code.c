@@ -2,11 +2,11 @@
 #include<string.h>
 int main(){
     int N;
-    top_marks= -1.0;
+    float top_marks= -1.0;
     scanf("%d",&N);
     int rollno, top_rollno;
     char name[50], top_name[50];
-    float marks,top_marks=-1.0;
+    float marks;
     while(N--){
         scanf("%d",&rollno);
         scanf("%s",&name);
