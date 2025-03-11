@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    float N;
-    scanf("%f",&N);
+    int N;
+    scanf("%d",&N);
     int rollno;
     char name[50];
     float marks;
