@@ -13,7 +13,7 @@ int main(){
         totalmarks+=marks;   
     }
     float avgmarks = totalmarks/N;
-    printf("Total Marks: %.2f", totalmarks);
+    printf("Total Marks: %.2f \n", totalmarks);
     printf("Average Marks: %.2f", avgmarks);
 
 }
