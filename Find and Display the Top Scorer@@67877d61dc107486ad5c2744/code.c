@@ -17,8 +17,8 @@ int main(){
             strcpy(top_name, name);}
             }
 
-    printf("Top Scorer:");
-    printf("Roll Number: %d", top_rollno);
-    printf("Name: %s", top_name);
+    printf("Top Scorer: ");
+    printf("Roll Number: %d ", top_rollno);
+    printf("Name: %s ", top_name);
     printf("Marks: %.2f", top_marks);
 }
