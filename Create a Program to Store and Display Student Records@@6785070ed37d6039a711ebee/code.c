@@ -4,7 +4,7 @@ int main(){
     int rollno;
     char name[50];
     float marks;
-    for(int i=1; i<=N; i++){
+    while(N--){
         scanf("%d",&rollno);
         printf("Roll Number: %d",rollno);
         scanf("%c",&name);
