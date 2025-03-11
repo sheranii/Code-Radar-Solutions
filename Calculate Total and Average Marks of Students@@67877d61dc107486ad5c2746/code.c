@@ -6,7 +6,7 @@ int main(){
     char name[80];
     float marks;
     float totalmarks=0;
-    for(int =1; i<=N; i++){
+    for(int i=1; i<=N; i++){
         scanf("%d",&rollno);
         scanf("%s",name);
         scanf("%f",&marks);
