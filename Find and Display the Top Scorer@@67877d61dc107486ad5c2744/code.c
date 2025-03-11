@@ -16,9 +16,8 @@ int main(){
             top_marks = marks;
             top_rollno = rollno;
             strcpy(top_name, name);
-        }
     printf("Top Scorer:");
     printf("Roll Number: %d", top_rollno);
     printf("Name: %s", top_name);
-    printf("Marks: %.2f", top_marks);
+    printf("Marks: %.2f", top_marks);}
 }
