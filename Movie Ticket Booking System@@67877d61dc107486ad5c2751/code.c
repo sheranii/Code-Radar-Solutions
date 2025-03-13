@@ -5,9 +5,7 @@ int main(){
     int std,pre,vip;
     float tstd=0.0,tpre=0.0,tvip=0.0;
     for(int i=0; i<N;i++){
-    scanf("%d",&std);
-    scanf("%d",&pre);
-    scanf("%d",&vip);
+    scanf("%d %d %d",&std,&pre,&vip);
     tstd += std;
     tpre += pre;
     tvip += vip;
