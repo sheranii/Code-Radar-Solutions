@@ -8,9 +8,9 @@ int main(){
     scanf("%d",&std);
     scanf("%d",&pre);
     scanf("%d",&vip);
-    tstd+=std;
-    tpre+=pre;
-    tvip+=vip;
+    tstd += std;
+    tpre += pre;
+    tvip += vip;
     }
     printf("Standard: %.2f, ",tstd);
     printf(" Premium: %.2f, ",tpre);
