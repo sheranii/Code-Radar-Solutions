@@ -8,7 +8,7 @@ int main(){
     scanf("%d",&pre);
     scanf("%d",&vip);
     }
-    printf("%d",std);
-    printf("%d",pre);
-    printf("%d",vip);
+    printf("Standard: %d, ",std);
+    printf("Premium: %d, ",pre);
+    printf("VIP: %d",vip);
 }
