@@ -8,7 +8,7 @@ int main(){
     scanf("%d",&std);
     scanf("%d",&pre);
     scanf("%d",&vip);
-    tsd+=std;
+    tstd+=std;
     tpre+=pre;
     tvip+=vip;
     }
