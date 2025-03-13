@@ -12,7 +12,7 @@ int main(){
     tpre+=pre;
     tvip+=vip;
     }
-    printf("Standard: %.2f, ",std);
-    printf(" Premium: %.2f, ",pre);
-    printf(" VIP: %.2f",vip);
+    printf("Standard: %.2f, ",tstd);
+    printf(" Premium: %.2f, ",tpre);
+    printf(" VIP: %.2f",tvip);
 }
