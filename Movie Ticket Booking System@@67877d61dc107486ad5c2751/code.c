@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&N);
     int std,pre,vip;
     float tstd=0.0,tpre=0.0,tvip=0.0;
-    for(int i=1; i<=N;i++){
+    for(int i=0; i<N;i++){
     scanf("%d",&std);
     scanf("%d",&pre);
     scanf("%d",&vip);
