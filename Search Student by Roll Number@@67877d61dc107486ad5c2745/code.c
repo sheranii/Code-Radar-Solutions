@@ -12,7 +12,7 @@ int main(){
     }
     int searchedrollno;
     scanf("%d",&searchedrollno);
-    int find=0;
+    int find;
     for(int i=0; i<N; i++){
         if(rollno==searchedrollno){
             printf("Roll Number: %d,",rollno);
