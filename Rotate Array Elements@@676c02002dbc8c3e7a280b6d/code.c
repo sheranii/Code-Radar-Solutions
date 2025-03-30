@@ -1,19 +1,27 @@
 #include<stdio.h>
-int n;
-scanf("%d",&n);
-int arr[n];
-for(int i=1; i<n; i++){
-    scanf("%d",&arr[i]);
-}
-int k;
-scanf("%d",&k);
-for(int i=1; i<k; i++){
-    for(int j=i+1; j<k; j++){
-        int temp= arr[i];
+void reverse(int arr[],int a, int b){
+    for(int i=a, j=b; i<j; i++, j--){
+        int temp=arr[i];
         arr[i]=arr[j];
-        arr[j]= temp;
+        arr[j]=temp;
     }
 }
-for(int i=1; i<n; i++){
-    printf("%d \n", arr[i]);
+int main(){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0; i<n; i++){
+        scanf("%d",&arr[i]);
+    }
+    int k;
+    scanf("%d",&k);
+
+    k=k%n;
+    
+    reverse(arr, 0, n-1);
+    reverse(arr, 0, k-1);
+    reverse(arr, k, n-1);
+    for(int i=0; i<5; i++){
+        printf("%d ", arr[i]);
+        }
 }
